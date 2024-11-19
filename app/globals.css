@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --key-colors-primary: #006000;
+  --neutral-neutral30: #484646;
+  --neutral-neutral40: #605D5D;
+  --neutral-neutral60: #999999;
+}
+
+input[type="tel"]::-webkit-input-placeholder {
+  text-align: right;
+}
